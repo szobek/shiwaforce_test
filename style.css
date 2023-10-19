@@ -1,5 +1,73 @@
 body {
   background: #cdcdcd;
 }
+body .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+body .cards .card, body .cards .card-rev-border-radius {
+  width: 230px;
+  height: 330px;
+  min-width: 100px;
+  border-radius: 20px 0 20px 0;
+}
+body .cards .card .letter, body .cards .card-rev-border-radius .letter {
+  text-transform: uppercase;
+  font-size: 70px;
+  color: #222;
+}
+body .cards .card .letter-white, body .cards .card-rev-border-radius .letter-white {
+  color: white;
+}
+body .cards .card .title, body .cards .card-rev-border-radius .title {
+  font: 30px sans-serif;
+  text-align: center;
+  height: 86px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .cards .card .link, body .cards .card-rev-border-radius .link {
+  color: #529ec3;
+}
+body .cards .card .content, body .cards .card-rev-border-radius .content {
+  margin: 0 20px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+body .cards .card .button, body .cards .card-rev-border-radius .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 103px;
+  height: 35px;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 14px;
+  background-color: #ededed;
+  color: #323232;
+}
+body .cards .card .button-blue, body .cards .card-rev-border-radius .button-blue {
+  background-color: #4a8baf;
+  color: #fff;
+}
+body .cards .card .title, body .cards .card .link, body .cards .card .letter, body .cards .card .content, body .cards .card .button, body .cards .card-rev-border-radius .title, body .cards .card-rev-border-radius .link, body .cards .card-rev-border-radius .letter, body .cards .card-rev-border-radius .content, body .cards .card-rev-border-radius .button {
+  text-align: center;
+}
+body .cards .card-rev-border-radius {
+  border-radius: 0 20px 0 20px;
+}
+body .cards .card-white {
+  background: #f1f1f1;
+}
+body .cards .card-black {
+  background: #323232;
+}
+body .cards .card-black .letter, body .cards .card-black .title {
+  color: #fff;
+}
 
 /*# sourceMappingURL=style.css.map */
