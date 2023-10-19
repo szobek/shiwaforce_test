@@ -69,5 +69,18 @@ body .cards .card-black {
 body .cards .card-black .letter, body .cards .card-black .title {
   color: #fff;
 }
+body .page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 300px;
+  padding-right: 100px;
+  background-color: #b7b7b7;
+  color: #f6f6f6;
+  max-width: 950px;
+  height: 144px;
+  border-radius: 20px;
+  margin: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
